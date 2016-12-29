@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="">
+<html lang="en" ng-app="slautomations">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -7,19 +7,108 @@
           content="">
     <meta name="description" content="">
     <link rel="shortcut icon" type="image/x-icon" href=""/>
-    <title>Title</title>
+    <title>Smart Living Automations</title>
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css"/>
     <script src="bower_components/angular/angular.min.js"></script>
     <script src="bower_components/angular-route/angular-route.min.js"></script>
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="common.css"/>
     <link rel="stylesheet" href="app.css"/>
+    <link rel="stylesheet" href="media-queries.css"/>
     <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css"/>
     <script src="routes.js"></script>
     <script src="app.js"></script>
     <script src="appJQ.js"></script>
 </head>
-<body ng-controller="">
-Welcome to Angular Bootstrap Font-Awesome Boilerplate.
+<body ng-controller="mainCtrl">
+<div class="col-lg-12 col-md-12 col-sm-12 col-sm-12 header">
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 center logo-wrapper">
+        <img src="images/logo.png" alt="" class="logo">
+    </div>
+    <div class="col-lg-6 col-md-6 hidden-sm hidden-xs">
+        <nav class="middle">
+            <a href="" class="nav-links">Home</a>
+            <a href="" class="nav-links">About</a>
+            <a href="" class="nav-links">Services</a>
+            <a href="" class="nav-links">Products</a>
+            <!--<a href="" class="nav-links">Our Work</a>-->
+            <!--<a href="" class="nav-links">Partners</a>-->
+            <a href="" class="nav-links">Contact</a>
+        </nav>
+    </div>
+</div>
+
+<!--CAROUSEL-->
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"></div>
+
+<!--ABOUT-->
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aboutus-container block center font-white bg-green">
+    <div class="block-header">
+        ABOUT US
+    </div>
+    <div>
+        <img src="images/text-divider.png" alt="" class="divider-png">
+    </div>
+    <div class="block-body col-lg-8 col-md-8 col-sm-10 col-sm-12 col-lg-offset-2 col-md-offset-2 col-sm-offset-1">
+        <p>With over 8 years of experience in home and building automation in U.A.E., Smart Home and
+            Building Control Systems is now set to expand its expertise in the Indian market by looking into
+            the modern living and growing technology of the region</p>
+        <p>Smart Home and Building Control Systems work in-line with green building technology where
+            we strive to give the best possible solution to save energy and reduce carbon footprint enabling
+            the users to live with modern technology in a more luxurious and flexible way. Smart home and
+            building automation system will understand consumer's requirements and will help to provide
+            customized cost effective solutions with savings in the electrical energy and an increase in the
+            property's market value. </p>
+    </div>
+</div>
+
+<!--OUR SERVICES-->
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aboutus-container block center">
+    <div class="block-header font-777777">
+        SERVICES
+    </div>
+    <div>
+        <img src="images/text-divider-green.png" alt="" class="divider-png">
+    </div>
+    <div class="row">
+        <div class="col-lg-10 col-lg-offset-1">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 padding" ng-repeat="x in [1,2,3]">
+                <i class="fa fa-cog font-grey"></i>
+                <div class="service-name bold font-848484">SMART HOME SOLUTION</div>
+                <div class="service-description font-7d7d7d">
+                    Home Automation solution for connected smart homes and offices have found
+                    increasing popularity in recent years due to much higher affordability and convenience through
+                    SMART PHONE and TABLET connectivity. The concept of “Internet of things” has tied in closely
+                    with the increasing proliferation of home automation solutions.
+                </div>
+                <span class="btn-more">Explore &gt;&gt;</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--PRODUCTS-->
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aboutus-container block center font-white bg-black">
+    <div class="block-header">
+        PRODUCTS
+    </div>
+    <div>
+        <img src="images/text-divider.png" alt="" class="divider-png">
+    </div>
+    <div class="block-body col-lg-8 col-md-8 col-sm-10 col-sm-12 col-lg-offset-2 col-md-offset-2 col-sm-offset-1">
+        <p>With over 8 years of experience in home and building automation in U.A.E., Smart Home and
+            Building Control Systems is now set to expand its expertise in the Indian market by looking into
+            the modern living and growing technology of the region</p>
+        <p>Smart Home and Building Control Systems work in-line with green building technology where
+            we strive to give the best possible solution to save energy and reduce carbon footprint enabling
+            the users to live with modern technology in a more luxurious and flexible way. Smart home and
+            building automation system will understand consumer's requirements and will help to provide
+            customized cost effective solutions with savings in the electrical energy and an increase in the
+            property's market value. </p>
+    </div>
+</div>
+
 </body>
 </html>

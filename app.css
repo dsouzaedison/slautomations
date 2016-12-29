@@ -1,0 +1,70 @@
+body {
+    font-size: 16px;
+}
+
+.header {
+    height: 50px;
+    background: #eee;
+}
+
+.logo {
+    max-height: 50px;
+}
+
+nav {
+    line-height: 50px;
+}
+
+.nav-links {
+    padding: 0 10px;
+}
+
+.aboutus-container {
+    min-height: 250px;
+}
+
+.block-header {
+    font-size: 180%;
+}
+
+.block {
+    padding: 2%;
+}
+
+.divider-png {
+    height: 20px;
+    width: 160px;
+}
+
+.block-body {
+    padding: 2% 0;
+    font-size: 100%;
+}
+
+.fa-cog {
+    font-size: 700% !important;
+}
+
+.service-name {
+    font-size: 120%;
+    padding: 15px;
+}
+
+.service-description {
+    font-size: 80%;
+    text-align: left;
+}
+
+.btn-more {
+    border: 1px solid #009688;
+    padding: 5px 25px;
+    color: #009688;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 15px !important;
+}
+
+.btn-more:hover {
+    background: #009688;
+    color: #fff;
+}
