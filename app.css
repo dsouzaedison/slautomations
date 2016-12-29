@@ -5,6 +5,16 @@ body {
 
 .header {
     height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: #fff;
+    box-shadow: 0 1px 0.3em #92a79e;
+}
+
+.slider {
+    margin-top: 50px;
 }
 
 .logo {
@@ -47,7 +57,7 @@ nav {
 
 .service-name {
     font-size: 120%;
-    padding: 15px;
+    padding-top: 15px;
 }
 
 .service-description {
@@ -103,4 +113,12 @@ nav {
     margin: 0 auto;
     width: 80%;
     border: 5px solid #fff;
+}
+
+.footer {
+    min-height: 50px;
+    background: #353535;
+    color: #fff;
+    font-size: 80%;
+    line-height: 50px;
 }
