@@ -5,6 +5,7 @@ body {
 
 .header {
     height: 50px;
+    width: 100%;
     position: fixed;
     top: 0;
     left: 0;
@@ -86,7 +87,6 @@ nav {
 }
 
 .contact-bg {
-    overflow: auto;
     background: rgba(0, 150, 136, 0.8);
     padding: 2% 0;
     min-height: 400px;
@@ -109,7 +109,7 @@ nav {
 }
 
 .google-map {
-    height: 400px;
+    height: 380px;
     margin: 0 auto;
     width: 80%;
     border: 5px solid #fff;
@@ -120,5 +120,9 @@ nav {
     background: #353535;
     color: #fff;
     font-size: 80%;
+    line-height: 50px;
+}
+
+.hamburger {
     line-height: 50px;
 }
