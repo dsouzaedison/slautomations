@@ -1,10 +1,10 @@
 body {
     font-size: 16px;
+    overflow-x: hidden;
 }
 
 .header {
     height: 50px;
-    background: #eee;
 }
 
 .logo {
@@ -67,4 +67,40 @@ nav {
 .btn-more:hover {
     background: #009688;
     color: #fff;
+}
+
+.contact-wrapper {
+    padding: 0;
+    background: url("images/form-bg.jpg") fixed transparent;
+    background-size: 100% 100%;
+}
+
+.contact-bg {
+    overflow: auto;
+    background: rgba(0, 150, 136, 0.8);
+    padding: 2% 0;
+    min-height: 400px;
+}
+
+.form {
+    background: rgba(0,0,0,0.6);
+    box-shadow: 0 0 0.3em #000;
+    margin: 15px 0;
+}
+
+.submit {
+    background: #004D40;
+    color: #fff;
+}
+
+.submit:hover {
+    box-shadow: 0 0 0.3em #fff;
+    transition: all 0.5s ease;
+}
+
+.google-map {
+    height: 400px;
+    margin: 0 auto;
+    width: 80%;
+    border: 5px solid #fff;
 }
