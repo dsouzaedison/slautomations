@@ -1,0 +1,52 @@
+.center {
+    text-align: center;
+}
+
+.middle {
+    vertical-align: middle;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.font-white {
+    color: #fff;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bg-green {
+    background: #009688;
+}
+
+.bg-black {
+    background: #000;
+}
+
+.padding {
+     padding: 15px;
+ }
+
+.font-grey {
+    color: #eee;
+}
+
+.font-848484 {
+    color: #848484;
+}
+
+.font-7d7d7d {
+    color: #7d7d7d;
+}
+
+.font-777777 {
+    color: #777777;
+}
