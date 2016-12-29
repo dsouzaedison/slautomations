@@ -1,0 +1,20 @@
+{
+  "name": "slautomations",
+  "homepage": "https://github.com/dsouzaedison/slautomations",
+  "authors": [
+    "dsouzaedison11@gmail.com"
+  ],
+  "description": "Home Automation and Security Systems",
+  "main": "index.html",
+  "keywords": [
+    "home",
+    "automation"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "angular-route": "^1.5.8",
+    "font-awesome": "^4.7.0",
+    "angular": "^1.5.8",
+    "bootstrap": "^3.3.7"
+  }
+}
