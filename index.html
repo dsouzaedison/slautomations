@@ -196,12 +196,12 @@
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 border-left">
                         <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 col-lg-offset-2 col-md-offset-2">
-                            <form action="" class="form padding">
-                                <input type="text" class="input-text" placeholder="Your Name">
-                                <input type="text" class="input-text" placeholder="Email ID">
-                                <input type="text" class="input-text" placeholder="Subject">
-                                <textarea name="" id="" rows="5" placeholder="Your Message"></textarea>
-                                <button class="submit"><i class="fa fa-send"></i> Send</button>
+                            <form action="" name="myForm" class="form padding">
+                                <input type="text" ng-class="{'form-error': myForm.name.$dirty && myForm.name.$invalid}" ng-model="name" name="name" ng-pattern="/^[a-zA-Z ]{3}[a-zA-Z ]*$/" ng-required="true" class="input-text" placeholder="Your Name">
+                                <input type="text" ng-class="{'form-error': myForm.email.$dirty && myForm.email.$invalid}" ng-model="email" name="email" ng-pattern="/^[a-z]+[a-z0-9._]+@[a-z]+\.[a-z.]{2,5}$/" ng-required="true" class="input-text" placeholder="Email ID">
+                                <input type="text" ng-class="{'form-error': myForm.subject.$dirty && myForm.subject.$invalid}" ng-model="subject" name="subject" ng-pattern="/^[a-zA-Z ]{3}[a-zA-Z ]*$/" class="input-text" ng-required="true" placeholder="Subject">
+                                <textarea name="message" ng-class="{'form-error': myForm.message.$dirty && myForm.message.$invalid}" ng-model="message" ng-pattern="/^[a-zA-Z0-9 ]{3}[a-zA-Z0-9 ]*$/" id="" rows="5" ng-required="true" placeholder="Your Message"></textarea>
+                                <button class="submit" ng-disabled="formNotValid()"><i class="fa fa-send"></i> Send</button>
                             </form>
                         </div>
                     </div>
