@@ -171,3 +171,7 @@ nav {
 .fa-facebook, .fa-twitter, .fa-google {
     cursor: pointer;
 }
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    height: 300px;
+}
