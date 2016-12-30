@@ -77,6 +77,7 @@ nav {
 .service-name {
     font-size: 120%;
     padding-top: 15px;
+    min-height: 65px;
 }
 
 .service-description {
@@ -137,7 +138,7 @@ nav {
     min-height: 50px;
     background: #353535;
     color: #fff;
-    font-size: 80%;
+    font-size: 70%;
     line-height: 50px;
 }
 
