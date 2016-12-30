@@ -111,3 +111,15 @@ hr {
 .carousel-control.right {
     background-image: none !important;
 }
+
+h2 {
+    font-size: 90%;
+}
+
+.lh-18 {
+    line-height: 1.8;
+}
+
+.font-8c8c8c {
+    color: #8c8c8c;
+}

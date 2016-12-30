@@ -157,3 +157,16 @@ nav {
 .form-error {
     border: 1px solid red;
 }
+
+.info-footer {
+    min-height: 105px;
+    background: #484848;
+}
+
+.social-icons {
+    line-height: 105px;
+}
+
+.fa-facebook, .fa-twitter, .fa-google {
+    cursor: pointer;
+}

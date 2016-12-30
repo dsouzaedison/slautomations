@@ -47,4 +47,8 @@
         height: 30px;
         padding: 0 15px;
     }
+
+    .social-icons {
+        line-height: 50px;
+    }
 }
