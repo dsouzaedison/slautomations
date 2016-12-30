@@ -95,3 +95,19 @@ hr {
 .bg-4e4e4e {
     background: #4e4e4e;
 }
+
+.absolute {
+    position: absolute;
+}
+
+.carousel-control:focus, .carousel-control:hover {
+    background: none !important;
+}
+
+.carousel-control.left {
+    background-image: none !important;
+}
+
+.carousel-control.right {
+    background-image: none !important;
+}
