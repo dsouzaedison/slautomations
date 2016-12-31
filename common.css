@@ -131,3 +131,15 @@ h6 {
 .font-888 {
     color: #888;
 }
+
+.spacing {
+    padding: 25px 10%;
+}
+
+.font-heading {
+    color: #585858;
+}
+
+.pointer {
+    cursor: pointer;
+}
