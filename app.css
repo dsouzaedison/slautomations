@@ -20,12 +20,13 @@ body {
     top: 0;
     left: 0;
     z-index: 1;
+    border-bottom: 1.5px solid teal;
     background: #fff;
     box-shadow: 0 1px 0.3em #92a79e;
 }
 
 .slider {
-    margin-top: 60px;
+    /*margin-top: 60px;*/
     padding: 0;
     /*height: 250px;*/
 }
@@ -47,6 +48,7 @@ nav {
 .nav-links-active {
     background: #eee;
     color: #525252;
+    border-bottom: 2px solid teal;
 }
 
 .aboutus-container {
@@ -189,7 +191,7 @@ nav {
 }
 
 .product-title {
-    margin-top: 60px;
+    /*margin-top: 60px;*/
     font-size: 150%;
 }
 
@@ -232,4 +234,8 @@ nav {
 
 .building {
     background: url("images/blur/building.jpg");
+}
+
+.top-margin {
+    margin-top: 60px;
 }

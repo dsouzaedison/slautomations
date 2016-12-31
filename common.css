@@ -136,8 +136,16 @@ h6 {
     padding: 25px 10%;
 }
 
-.font-heading {
+.font-heading-1 {
     color: #585858;
+}
+
+.font-heading-red {
+    color: #bd1e2d;
+}
+
+.font-5f5f5f {
+    color: #5f5f5f;
 }
 
 .pointer {
