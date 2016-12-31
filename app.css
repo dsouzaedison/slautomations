@@ -173,6 +173,7 @@ nav {
 .info-footer {
     min-height: 105px;
     background: #484848;
+    border-top: 2px solid #fff;
 }
 
 .social-icons {
@@ -210,6 +211,25 @@ nav {
 }
 
 .sub-wrapper {
-    background: url("images/blur/smarthome1.jpg");
     background-size: auto 100vw;
+}
+
+.alarm {
+    background: url("images/blur/alarm.jpg");
+}
+
+.smarthome1 {
+    background: url("images/blur/smarthome1.jpg");
+}
+
+.security {
+    background: url("images/blur/security.jpg");
+}
+
+.lighting {
+    background: url("images/blur/lighting.jpg");
+}
+
+.building {
+    background: url("images/blur/building.jpg");
 }

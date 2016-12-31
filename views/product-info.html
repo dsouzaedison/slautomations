@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <div class="product-title font-heading">
-                SMART HOME SOLUTION
+                {{services[productIndex].name}}
             </div>
             <div class="justify product-desc-brief padding font-777777">
                 <p>Home Automation solution for connected smart homes and offices have found
@@ -18,7 +18,7 @@
     </div>
 </div>
 
-<div class="spacing font-white center sub-wrapper parallax">
+<div class="spacing font-white center sub-wrapper parallax {{services[productIndex].background}} gradient">
     <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 padding" ng-repeat="name in services[productIndex].sub">

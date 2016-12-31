@@ -5,6 +5,7 @@ angular.module('slautomations', ['route'])
     $scope.services = [{
         name : 'SMART HOME SOLUTION',
         icon : 'fa-home',
+        background : 'smarthome1',
         sub : [
             'LIGHTING CONTROL',
             'DIMMING CONTROL',
@@ -20,22 +21,24 @@ angular.module('slautomations', ['route'])
     },{
         name : 'SECURITY SYSTEMS',
         icon : 'fa-lock',
+        background : 'security',
         sub : [
+            'INTERCOM',
+            'SECURITY LOCKS',
+            'CCTV/IP CAMERAS',
+            'ACCESS CONTROL SYSTEM',
             'DOOR OPEN/CLOSE STATUS',
             'WINDOW OPEN/CLOSE STATUS',
-            'MAIN GATE OPEN/CLOSE STATUS',
-            'CCTV/IP CAMERAS',
-            'SECURITY LOCKS',
-            'INTERCOM',
-            'ACCESS CONTROL SYSTEM'
+            'MAIN GATE OPEN/CLOSE STATUS'
         ]
     },{
         name : 'COMMON AREA LIGHTING CONTROL',
         icon : 'fa-lightbulb-o',
+        background : 'lighting',
         sub : [
             'STREET LIGHTING CONTROL',
-            'SHOWROOM LIGHTING CONTROL',
             'MALL COMMON AREA LIGHTING',
+            'SHOWROOM LIGHTING CONTROL',
             'LUX BASED LIGHTING CONTROL',
             'LANDSCAPE LIGHTING CONTROL',
             'BUILDING COMMON AREA LIGHTING',
@@ -47,6 +50,7 @@ angular.module('slautomations', ['route'])
     },{
         name : 'ALARM AND MONITORING',
         icon : 'fa-bell',
+        background : 'alarm',
         sub : [
             'SMOKE DETECTOR',
             'LPG GAS DETECTOR',
@@ -57,6 +61,7 @@ angular.module('slautomations', ['route'])
     },{
         name : 'BUILDING MANAGEMENT SYSTEM',
         icon : 'fa-building',
+        background : 'building',
         sub : [
             'HVAC CONTROL',
             'SCADA GRAPHICS',
