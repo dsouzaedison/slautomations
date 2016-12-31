@@ -72,4 +72,8 @@
         background: -moz-linear-gradient(lightslategray, #eeeeee); /* For Firefox 3.6 to 15 */
         background: linear-gradient(lightslategray, #eeeeee)
     }
+
+    .spacing {
+        padding: 15px 0;
+    }
 }
