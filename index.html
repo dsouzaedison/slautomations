@@ -23,26 +23,27 @@
     <script src="appJQ.js"></script>
 </head>
 <body ng-controller="mainCtrl">
-<div class="row">
-    <div class="col-lg-12 col-md-12 col-sm-12 col-sm-12 header">
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 center logo-wrapper">
-            <img src="images/logo.png" alt="" class="logo">
-        </div>
-        <div class="col-lg-6 col-md-6 hidden-sm hidden-xs">
-            <nav class="middle">
-                <a href="#home" class="nav-links" ng-class="{'nav-links-active' : active == 0}"
-                   ng-click="active=0">Home</a>
-                <a href="#about" class="nav-links" ng-class="{'nav-links-active' : active == 1}" ng-click="active=1">About</a>
-                <a href="#services" class="nav-links" ng-class="{'nav-links-active' : active == 2}" ng-click="active=2">Services</a>
-                <a href="#products" class="nav-links" ng-class="{'nav-links-active' : active == 3}" ng-click="active=3">Products</a>
-                <!--<a href="" class="nav-links" ng-class="{'nav-links-active' : active == 4}" ng-click="active=4">Our Work</a>-->
-                <!--<a href="" class="nav-links" ng-class="{'nav-links-active' : active == 5}" ng-click="active=5">Partners</a>-->
-                <a href="#contact" class="nav-links" ng-class="{'nav-links-active' : active == 6}" ng-click="active=6">Contact</a>
-            </nav>
-        </div>
-        <div class="col-sm-6 col-xs-6 hidden-lg hidden-md right middle hamburger">
-            <i class="fa fa-bars"></i>
-        </div>
+<div class="col-lg-12 col-md-12 col-sm-12 col-sm-12 header">
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 center logo-wrapper">
+        <img src="images/logo.png" alt="" class="logo">
+    </div>
+    <div class="col-lg-6 col-md-6 hidden-sm hidden-xs">
+        <nav class="middle font-888">
+            <a href="#home" class="nav-links" ng-class="{'nav-links-active' : active == 0}"
+               ng-click="active=0"><i class="fa fa-home"></i> Home</a>
+            <a href="#about" class="nav-links" ng-class="{'nav-links-active' : active == 1}" ng-click="active=1"><i
+                    class="fa fa-info-circle"></i> About</a>
+            <a href="#services" class="nav-links" ng-class="{'nav-links-active' : active == 2}" ng-click="active=2"><i
+                    class="fa fa-cog"></i> Services</a>
+            <!--<a href="#products" class="nav-links" ng-class="{'nav-links-active' : active == 3}" ng-click="active=3">Products</a>-->
+            <!--<a href="" class="nav-links" ng-class="{'nav-links-active' : active == 4}" ng-click="active=4">Our Work</a>-->
+            <!--<a href="" class="nav-links" ng-class="{'nav-links-active' : active == 5}" ng-click="active=5">Partners</a>-->
+            <a href="#contact" class="nav-links" ng-class="{'nav-links-active' : active == 6}" ng-click="active=6"><i
+                    class="fa fa-phone-square"></i> Contact</a>
+        </nav>
+    </div>
+    <div class="col-sm-6 col-xs-6 hidden-lg hidden-md right middle hamburger">
+        <i class="fa fa-bars"></i>
     </div>
 </div>
 
@@ -92,7 +93,7 @@
 </div>
 
 <!--ABOUT-->
-<div id="about" class="row">
+<div id="about">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aboutus-container block center font-white bg-green">
         <div class="block-header">
             ABOUT US
@@ -100,7 +101,7 @@
         <div>
             <img src="images/text-divider.png" alt="" class="divider-png">
         </div>
-        <div class="block-body col-lg-8 col-md-8 col-sm-10 col-sm-12 col-lg-offset-2 col-md-offset-2 col-sm-offset-1">
+        <div class="block-body col-lg-8 col-md-8 col-sm-10 col-sm-12 col-lg-offset-2 col-md-offset-2 col-sm-offset-1 justify">
             <p>With over 8 years of experience in home and building automation in U.A.E., Smart Home and
                 Building Control Systems is now set to expand its expertise in the Indian market by looking into
                 the modern living and growing technology of the region</p>
@@ -115,7 +116,7 @@
 </div>
 
 <!--OUR SERVICES-->
-<div id="services" class="row">
+<div id="services">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aboutus-container block center">
         <div class="block-header font-777777">
             SERVICES
@@ -144,7 +145,7 @@
 
 
 <!--PRODUCTS-->
-<div id="products" class="row">
+<div id="products" ng-hide="true">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aboutus-container block center font-white bg-4e4e4e">
         <div class="col-lg-12 block-header">
             PRODUCTS
@@ -178,7 +179,7 @@
     </div>
 </div>
 
-<div id="contact" class="row">
+<div id="contact">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 contact-wrapper center">
         <div class="contact-bg">
             <div class="block-header font-white">
@@ -229,37 +230,31 @@
     </div>
 </div>
 
-<div class="row">
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 info-footer font-8c8c8c">
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 col-lg-offset-1 col-md-offset-1">
-            <h6 class="lh-18 font-white">
-                R.B CITY COMPLEX <br>
-                ALVA’S HOSPITAL ROAD<br>
-                MOODBIDRI, MANGALORE<br>
-                574227
-            </h6>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-            <h6>ENQUIRY : <br><br><span class="font-white">INFO@SLAUTOMATIONS.COM</span></h6>
-            <h6>PHONE : <br><br> <span class="font-white">08258 - 239424</span></h6>
-        </div>
-        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12 social-icons middle font-white">
-            <i class="fa fa-facebook"></i>
-            <i class="fa fa-twitter"></i>
-            <i class="fa fa-google"></i>
-        </div>
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 info-footer font-8c8c8c">
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 col-lg-offset-1 col-md-offset-1">
+        <h6 class="lh-18 font-white">
+            R.B CITY COMPLEX <br>
+            ALVA’S HOSPITAL ROAD<br>
+            MOODBIDRI, MANGALORE<br>
+            574227
+        </h6>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+        <h6>ENQUIRY : <br><br><span class="font-white"><i class="fa fa-envelope"></i> info@slautomations.com</span></h6>
+        <h6>PHONE : <br><br> <span class="font-white"><i class="fa fa-phone"></i> 08258 - 239424</span></h6>
+    </div>
+    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12 social-icons middle font-white">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-google"></i>
     </div>
 </div>
 
-<div class="row">
-    <div class="col-lg-12 footer">
-        <div class="container">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 footer">
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12"><span>&copy;
                 COPYRIGHT 2017 | SMART LIVING AUTOMATIONS</span>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 hidden-xs right">Developed by Edison D'souza</div>
-        </div>
-    </div>
 </div>
 </body>
 </html>
