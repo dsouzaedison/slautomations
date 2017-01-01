@@ -24,7 +24,7 @@
     }
 
     .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
-        height: 230px;
+        height: 230px !important;
     }
 }
 
@@ -62,7 +62,7 @@
     }
 
     .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
-        height: 150px;
+        height: 150px !important;
     }
 
     .gradient {
