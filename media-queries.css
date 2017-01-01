@@ -12,7 +12,7 @@
     }
 
     .aboutus-container {
-        padding: 15px 30px;
+        padding: 15px;
     }
 
     .map-container {
@@ -75,5 +75,17 @@
 
     .spacing {
         padding: 15px 0;
+    }
+
+    .no-padding-xs {
+        padding: 15px 0;
+    }
+
+    .border-left {
+        border: none;
+    }
+
+    .service-name {
+        min-height: auto;
     }
 }

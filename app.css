@@ -239,3 +239,28 @@ nav {
 .top-margin {
     margin-top: 60px;
 }
+
+.dropdown-menu-wrapper {
+    min-height: 100px;
+    background: #fff;
+    z-index: 3;
+    position: fixed;
+    padding: 5px 15px;
+    box-shadow: 0px 1px 0.3em #000;
+}
+
+.drop-nav-link {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+}
+
+.overlay {
+    z-index: 2;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.6);
+}

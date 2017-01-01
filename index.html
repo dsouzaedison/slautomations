@@ -44,16 +44,26 @@
                     class="fa fa-phone-square"></i> Contact</a>
         </nav>
     </div>
-    <div class="col-sm-6 col-xs-6 hidden-lg hidden-md right middle hamburger">
-        <i class="fa fa-bars"></i>
+    <div class="col-sm-6 col-xs-6 hidden-lg hidden-md right middle hamburger pointer">
+        <i class="fa fa-bars" ng-click="showMenu=true" ng-show="showMenu==false"></i>
+        <i class="fa fa-times" ng-click="showMenu=false" ng-show="showMenu==true"></i>
     </div>
 </div>
+<div class="col-xs-12 hidden-lg hidden-md hidden-sm dropdown-menu-wrapper middle" ng-show="showMenu==true">
+    <a href="#home" ng-click="showMenu=false" class="drop-nav-link middle"><i class="fa fa-home"></i> Home</a>
+    <a href="#about" ng-click="showMenu=false" class="drop-nav-link"><i class="fa fa-info-circle"></i> About</a>
+    <a href="#services" ng-click="showMenu=false" class="drop-nav-link"><i class="fa fa-cog"></i> Services</a>
+    <a href="#contact" ng-click="showMenu=false" class="drop-nav-link"><i class="fa fa-phone-square"></i> Contact</a>
+    <div class="center">...</div>
+</div>
+
+<div class="overlay" ng-show="showMenu==true"></div>
 
 <div class="top-margin"></div>
 <ng-view class="ngview"></ng-view>
 
 <!--INFO FOOTER-->
-<div ng-hide="false" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 info-footer font-8c8c8c">
+<div ng-hide="false" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 info-footer font-8c8c8c no-padding-xs">
     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 col-lg-offset-1 col-md-offset-1">
         <h6 class="lh-18 font-white">
             R.B CITY COMPLEX <br>

@@ -2,6 +2,7 @@ angular.module('slautomations', ['route'])
 .controller('mainCtrl', function ($scope, $location) {
     $scope.active = 0;
     $scope.productIndex = 0;
+    $scope.showMenu = false;
     $scope.services = [{
         name : 'SMART HOME SOLUTION',
         icon : 'fa-home',
