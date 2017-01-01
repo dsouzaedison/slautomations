@@ -30,6 +30,10 @@
     .service-description {
         min-height: 130px;
     }
+
+    .contact-wrapper:before {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -92,5 +96,9 @@
 
     .service-name {
         min-height: auto;
+    }
+
+    .contact-wrapper:before {
+        display: none;
     }
 }

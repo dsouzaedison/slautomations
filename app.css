@@ -19,7 +19,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1;
+    z-index: 10;
     border-bottom: 1.5px solid teal;
     background: #fff;
     box-shadow: 0 1px 0.3em #92a79e;
@@ -277,4 +277,34 @@ nav {
 
 .developer:hover {
     color: #fff;
+}
+
+.contact-wrapper:before {
+    display: block;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    content: '';
+    background: #ffffff;
+    z-index: 5;
+    top: -20px;
+    right: 48.5%;
+    text-align: center;
+    margin: 0 auto;
+    transform: rotate(45deg);
+}
+
+.teal-tail:before {
+    display: block;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    content: '';
+    background: #009688;
+    z-index: 1;
+    top: -20px;
+    right: 48.5%;
+    text-align: center;
+    margin: 0 auto;
+    transform: rotate(45deg);
 }
