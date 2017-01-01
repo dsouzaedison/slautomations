@@ -40,8 +40,6 @@ angular.module('slautomations', ['route'])
             background: 'lighting',
             desc: 'Lighting controls are sensors or devices that operate lights. These controls may be manual, time based or responds to movement, occupancy and light from other sources. Traditionally these controls are hard-wired to control individual or fixed groups of lights independently and either switch the lights off or on or dim them. Common areas are defined as all access areas of a building that are typically not sold or leased.',
             sub: [
-                'STREET LIGHTING CONTROL',
-                'MALL COMMON AREA LIGHTING',
                 'SHOWROOM LIGHTING CONTROL',
                 'LUX BASED LIGHTING CONTROL',
                 'LANDSCAPE LIGHTING CONTROL',
@@ -49,6 +47,8 @@ angular.module('slautomations', ['route'])
                 'HOSPITAL COMMON AREA LIGHTING',
                 'TIME SCHEDULE BASED LIGHTING CONTROL',
                 'MOTION SENSOR BASED LIGHTING CONTROL',
+                'MALL COMMON AREA LIGHTING',
+                'STREET LIGHTING CONTROL',
                 'COLLEGES & UNIVERSITY COMMON AREA LIGHTING'
             ]
         }, {
