@@ -31,7 +31,7 @@
         min-height: 130px;
     }
 
-    .contact-wrapper:before {
+    .contact-wrapper:before, .teal-tail:before {
         display: none;
     }
 }
@@ -98,7 +98,7 @@
         min-height: auto;
     }
 
-    .contact-wrapper:before {
+    .contact-wrapper:before, .teal-tail:before {
         display: none;
     }
 }
