@@ -26,6 +26,10 @@
     .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
         height: 230px !important;
     }
+
+    .service-description {
+        min-height: 130px;
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -59,6 +63,7 @@
 
     .service-description {
         text-align: center;
+        min-height: auto;
     }
 
     .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {

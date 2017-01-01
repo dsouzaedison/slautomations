@@ -88,6 +88,7 @@ nav {
 .service-description {
     font-size: 80%;
     text-align: left;
+    min-height: 180px;
 }
 
 .btn-more {
