@@ -176,3 +176,7 @@ h6 {
 .no-padding {
     padding: 0 !important;
 }
+
+.indent {
+    text-indent: 50px;
+}
