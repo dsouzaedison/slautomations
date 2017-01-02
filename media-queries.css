@@ -101,4 +101,9 @@
     .contact-wrapper:before, .teal-tail:before {
         display: none;
     }
+
+    .home-automation-img1, .home-automation-img2 {
+        height: 200px;
+        margin-top: 15px;
+    }
 }

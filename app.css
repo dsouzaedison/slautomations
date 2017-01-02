@@ -308,3 +308,7 @@ nav {
     margin: 0 auto;
     transform: rotate(45deg);
 }
+
+.home-automation-img1, .home-automation-img2 {
+    margin-top: 15px;
+}

@@ -136,6 +136,10 @@ h6 {
     padding: 25px 10%;
 }
 
+.intro-spacing {
+    padding: 25px 5%;
+}
+
 .font-heading-1 {
     color: #585858;
 }
@@ -158,4 +162,17 @@ h6 {
 
 .font-bbb {
     color: #bbb;
+}
+
+.margin-top15 {
+    margin-top: 15px;
+}
+
+.mycontainer {
+    display: inline-block;
+    overflow: auto;
+}
+
+.no-padding {
+    padding: 0 !important;
 }
