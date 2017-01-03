@@ -75,7 +75,7 @@ angular.module('slautomations', ['route'])
             productDesc: 'Building management systems are most commonly implemented in large projects with extensive mechanical, HVAC, electrical systems. Systems linked to a BMS typically represent 40% of a building\'s energy usage; if lighting is included, this number approaches to 70 % . BMS systems are a critical component to managing energy demand.In addition to controlling the building\'s internal environment, BMS systems are sometimes linked to access control (turnstiles and access doors controlling who is allowed access and egress to the building) or other security systems such as closed-circuit television (CCTV) and motion detectors. Fire alarm systems and elevators are also sometimes linked to a BMS, for monitoring. In case a fire is detected then only the fire alarm panel could shut off dampers in the ventilation system to stop smoke spreading and send all the elevators to the ground floor and park them to prevent people from using them.',
             sub: [
                 'HVAC CONTROL',
-                'SCADA GRAPHICS',
+                'PLC AND SCADA GRAPHICS',
                 'CAR PARK JET FANS CONTROL',
                 'GAS AND WATER METERING SYSTEM',
                 'BUILDING ELECTRICAL AND MECHANICAL SYSTEM MONITORING'
