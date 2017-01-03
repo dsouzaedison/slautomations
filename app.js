@@ -1,5 +1,5 @@
 angular.module('slautomations', ['route'])
-    .controller('mainCtrl', function ($scope, $location) {
+    .controller('mainCtrl', function ($scope, $location, $anchorScroll) {
         $scope.active = 0;
         $scope.productIndex = 0;
         $scope.showMenu = false;
@@ -87,5 +87,10 @@ angular.module('slautomations', ['route'])
                 index = 0;
             $scope.productIndex = index;
             $location.path(route);
+        };
+        
+        $scope.scrollTo = function (reference) {
+            $location.hash(reference);
+            $anchorScroll();
         };
     });

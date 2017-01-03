@@ -76,7 +76,8 @@ nav {
 }
 
 .service-icon {
-    font-size: 700% !important;
+    font-size: 380% !important;
+    line-height: 100px;
 }
 
 .service-name {
@@ -311,4 +312,14 @@ nav {
 
 .home-automation-img1, .home-automation-img2 {
     margin-top: 15px;
+}
+
+.icon-wrapper {
+    color: #eee;
+    background: #009688;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    line-height: 100px;
+    margin: 0 auto;
 }

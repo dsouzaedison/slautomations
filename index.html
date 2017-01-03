@@ -31,16 +31,16 @@
     </div>
     <div class="col-lg-6 col-md-6 hidden-sm hidden-xs">
         <nav class="middle font-888">
-            <a href="#home" class="nav-links" ng-class="{'nav-links-active' : active == 0}"
+            <a ng-href="#home" class="nav-links" ng-class="{'nav-links-active' : active == 0}"
                ng-click="active=0"><i class="fa fa-home"></i> Home</a>
-            <a href="#about" class="nav-links" ng-class="{'nav-links-active' : active == 1}" ng-click="active=1"><i
+            <a ng-href="#about" class="nav-links" ng-class="{'nav-links-active' : active == 1}" ng-click="active=1"><i
                     class="fa fa-info-circle"></i> About</a>
-            <a href="#services" class="nav-links" ng-class="{'nav-links-active' : active == 2}" ng-click="active=2"><i
+            <a ng-href="#services" class="nav-links" ng-class="{'nav-links-active' : active == 2}" ng-click="active=2"><i
                     class="fa fa-cog"></i> Services</a>
-            <!--<a href="#products" class="nav-links" ng-class="{'nav-links-active' : active == 3}" ng-click="active=3">Products</a>-->
-            <!--<a href="" class="nav-links" ng-class="{'nav-links-active' : active == 4}" ng-click="active=4">Our Work</a>-->
-            <!--<a href="" class="nav-links" ng-class="{'nav-links-active' : active == 5}" ng-click="active=5">Partners</a>-->
-            <a href="#contact" class="nav-links" ng-class="{'nav-links-active' : active == 6}" ng-click="active=6"><i
+            <!--<a ng-href="#products" class="nav-links" ng-class="{'nav-links-active' : active == 3}" ng-click="active=3">Products</a>-->
+            <!--<a ng-href="" class="nav-links" ng-class="{'nav-links-active' : active == 4}" ng-click="active=4">Our Work</a>-->
+            <!--<a ng-href="" class="nav-links" ng-class="{'nav-links-active' : active == 5}" ng-click="active=5">Partners</a>-->
+            <a href="" ng-href="#/contact" class="nav-links" ng-class="{'nav-links-active' : active == 6}" ng-click="active=6"><i
                     class="fa fa-phone-square"></i> Contact</a>
         </nav>
     </div>
@@ -50,7 +50,7 @@
     </div>
 </div>
 <div class="col-xs-12 hidden-lg hidden-md hidden-sm dropdown-menu-wrapper middle" ng-show="showMenu==true">
-    <a href="#home" ng-click="showMenu=false" class="drop-nav-link middle"><i class="fa fa-home"></i> Home</a>
+    <a href="#home" ng-click="showMenu=false " class="drop-nav-link middle"><i class="fa fa-home"></i> Home</a>
     <a href="#about" ng-click="showMenu=false" class="drop-nav-link"><i class="fa fa-info-circle"></i> About</a>
     <a href="#services" ng-click="showMenu=false" class="drop-nav-link"><i class="fa fa-cog"></i> Services</a>
     <a href="#contact" ng-click="showMenu=false" class="drop-nav-link"><i class="fa fa-phone-square"></i> Contact</a>
