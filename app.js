@@ -1,5 +1,5 @@
 angular.module('slautomations', ['route'])
-    .controller('mainCtrl', function ($scope, $location, $anchorScroll, $http) {
+    .controller('mainCtrl', function ($scope, $location, $anchorScroll) {
         $scope.active = 0;
         $scope.productIndex = 0;
         $scope.showMenu = false;
