@@ -1,5 +1,5 @@
 angular.module('slautomations', ['route'])
-    .controller('mainCtrl', function ($scope, $location, $anchorScroll) {
+    .controller('mainCtrl', function ($scope, $location, $anchorScroll, $http) {
         $scope.active = 0;
         $scope.productIndex = 0;
         $scope.showMenu = false;
@@ -92,5 +92,24 @@ angular.module('slautomations', ['route'])
         $scope.scrollTo = function (reference) {
             $location.hash(reference);
             $anchorScroll();
+        };
+
+        $scope.submitForm = function () {
+            var req = {
+                method: 'POST',
+                url: 'contactussubmit.php',
+                data: {
+                    name : $scope.name,
+                    email : $scope.email,
+                    subject : $scope.subject,
+                    message : $scope.message
+                }
+            };
+
+            $http(req).then(function(){
+                window.location.href = 'http://www.build.slautomations.com';
+            }, function(){
+                alert('Sorry! Something went wrong. You can reach us at : 08258 - 239424');
+            });
         };
     });

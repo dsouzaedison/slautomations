@@ -197,7 +197,7 @@
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 border-left">
                         <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 col-lg-offset-2 col-md-offset-2 no-padding-xs">
-                            <form action="" name="myForm" class="form padding">
+                            <form name="myForm" class="form padding">
                                 <input type="text" ng-class="{'form-error': myForm.name.$dirty && myForm.name.$invalid}"
                                        ng-model="name" name="name" ng-pattern="/^[a-zA-Z ]{3}[a-zA-Z ]*$/"
                                        ng-required="true" class="input-text" placeholder="Your Name">
@@ -214,7 +214,7 @@
                                           ng-class="{'form-error': myForm.message.$dirty && myForm.message.$invalid}"
                                           ng-model="message" ng-pattern="/^[a-zA-Z0-9 ]{3}[a-zA-Z0-9 ]*$/" id=""
                                           rows="5" ng-required="true" placeholder="Your Message"></textarea>
-                                <button class="submit" ng-disabled="formNotValid()"><i class="fa fa-send"></i> Send
+                                <button class="submit" ng-disabled="formNotValid()" ng-click="submitForm()"><i class="fa fa-send"></i> Send
                                 </button>
                             </form>
                         </div>
