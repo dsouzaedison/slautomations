@@ -10,6 +10,7 @@ angular.module('slautomations')
         };
 
         $scope.submitForm = function () {
+            console.log('Control Recieved');
             $http({
                 method: 'POST',
                 url: 'contactussubmit.php',
