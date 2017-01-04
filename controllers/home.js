@@ -21,9 +21,9 @@ angular.module('slautomations')
                     message : $scope.message
                 }
             }).then(function(){
-                window.location.href = 'http://build.slautomations.com';
+                window.location.href = 'http://www.slautomations.com';
             }, function(){
-                alert('Sorry! Something went wrong. You can reach us at : 08258 - 239424');
+                // alert('Sorry! Something went wrong. You can reach us at : 08258 - 239424');
             });
         };
     });
