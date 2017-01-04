@@ -212,7 +212,7 @@
                                        class="input-text" ng-required="true" placeholder="Subject">
                                 <textarea name="message"
                                           ng-class="{'form-error': myForm.message.$dirty && myForm.message.$invalid}"
-                                          ng-model="message" ng-pattern="/^[a-zA-Z0-9 ]{3}[a-zA-Z0-9 ]*$/" id=""
+                                          ng-model="message" ng-pattern="/^[a-zA-Z0-9 ]{3}[a-zA-Z0-9!.?@#$%&*()-_+=,{} ]*$/" id=""
                                           rows="5" ng-required="true" placeholder="Your Message"></textarea>
                                 <button class="submit" ng-disabled="formNotValid()" ng-click="submitForm()"><i
                                         class="fa fa-send"></i> Send
