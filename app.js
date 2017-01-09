@@ -1,7 +1,9 @@
 angular.module('slautomations', ['route'])
     .controller('mainCtrl', function ($scope, $location, $anchorScroll) {
         $scope.active = 0;
-        $scope.productIndex = 0;
+        if ($location.search().tab)
+            $scope.productIndex = $location.search().tab;
+        else $scope.productIndex = 0;
         $scope.showMenu = false;
         $scope.services = [{
             name: 'SMART HOME SOLUTION',
@@ -87,8 +89,9 @@ angular.module('slautomations', ['route'])
                 index = 0;
             $scope.productIndex = index;
             $location.path(route);
+            $location.search('tab', $scope.productIndex);
         };
-        
+
         $scope.scrollTo = function (reference) {
             $location.hash(reference);
             $anchorScroll();
