@@ -180,3 +180,7 @@ h6 {
 .indent {
     text-indent: 50px;
 }
+
+.height-250 {
+    min-height: 250px;
+}

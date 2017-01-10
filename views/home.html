@@ -93,7 +93,7 @@
 
 <!--ABOUT-->
 <div id="about">
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aboutus-container block center font-white bg-green">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 height-250 block center font-white bg-green">
         <div class="block-header">
             ABOUT US
         </div>
@@ -143,36 +143,19 @@
 
 
 <!--PRODUCTS-->
-<div id="products" ng-hide="true">
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aboutus-container block center font-white bg-4e4e4e">
+<div id="products">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 block center font-heading-1">
         <div class="col-lg-12 block-header">
             PRODUCTS
         </div>
         <div>
-            <img src="images/text-divider.png" alt="" class="divider-png">
+            <img src="images/text-divider-green.png" alt="" class="divider-png">
         </div>
-        <div class="block-body col-lg-12 col-md-12 col-sm-12 col-sm-12">
-            <div class="col-lg-1 col-md-1 hidden-sm hidden-xs"></div>
-            <div class="col-lg-2 col-md-2 col-sm-4 col-sm-12 padding center">
-                <i class="fa fa-home product-logo"></i>
-                <h5>SMART HOME SOLUTION</h5>
+        <div class="block-body col-lg-12 col-md-12 col-sm-12 col-sm-12 product-wrapper">
+            <div class="middle product-img-container" ng-repeat="product in products">
+                <img ng-src="images/products/{{product}}" alt="Loading Failed" class="img-product">
             </div>
-            <div class="col-lg-2 col-md-2 col-sm-4 col-sm-12 padding center">
-                <i class="fa fa-lock product-logo"></i>
-                <h5>SECURITY SYSTEMS</h5>
-            </div>
-            <div class="col-lg-2 col-md-2 col-sm-4 col-sm-12 padding center">
-                <i class="fa fa-lightbulb-o product-logo"></i>
-                <h5>COMMON AREA LIGHTING CONTROL</h5>
-            </div>
-            <div class="col-lg-2 col-md-2 col-sm-4 col-sm-12 padding center">
-                <i class="fa fa-bell product-logo"></i>
-                <h5>ALARM AND MONITORING</h5>
-            </div>
-            <div class="col-lg-2 col-md-2 col-sm-4 col-sm-12 padding center">
-                <i class="fa fa-building product-logo"></i>
-                <h5>BUILDING MANAGEMENT SYSTEM</h5>
-            </div>
+            <!--<div class="col-lg-2 col-md-2 col-sm-4 col-xs-12"></div>-->
         </div>
     </div>
 </div>
@@ -190,10 +173,10 @@
             <div class="row">
                 <div class="col-lg-12 padding">
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 hidden-xs map-container padding center">
-
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15545.973064917885!2d74.99470648706739!3d13.067894602683262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba4aae584907595%3A0xc0f2b0408e4c5a50!2sMoodbidri%2C+Karnataka!5e0!3m2!1sen!2sin!4v1483009665881"
-                                width="600" height="450" frameborder="0" class="google-map"
-                                allowfullscreen></iframe>
+                        <iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.4865920207017!2d74.99128211482292!3d13.0683184907925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1befc8910a861889!2sSmart+Living+Home+%26+Building+Automations!5e0!3m2!1sen!2s!4v1484057692649" width="600" height="450" frameborder="0" allowfullscreen></iframe>
+                        <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15545.973064917885!2d74.99470648706739!3d13.067894602683262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba4aae584907595%3A0xc0f2b0408e4c5a50!2sMoodbidri%2C+Karnataka!5e0!3m2!1sen!2sin!4v1483009665881"-->
+                                <!--width="600" height="450" frameborder="0" class="google-map"-->
+                                <!--allowfullscreen></iframe>-->
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 border-left">
                         <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 col-lg-offset-2 col-md-offset-2 no-padding-xs">
@@ -221,10 +204,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 hidden-lg hidden-md hidden-sm map-container padding center">
-                        <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.4865920207017!2d74.99128211482292!3d13.0683184907925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1befc8910a861889!2sSmart+Living+Home+%26+Building+Automations!5e0!3m2!1sen!2s!4v1483945493115"-->
-                                <!--width="600" height="450" frameborder="0" class="google-map"-->
-                                <!--allowfullscreen></iframe>-->
-                        <iframe src="https://www.google.com/maps/place/Smart+Living+Home+%26+Building+Automations/@13.0683185,74.9912821,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x1befc8910a861889!8m2!3d13.0683185!4d74.9934708?hl=en-IN" width="600" height="450" frameborder="0" style="border:0" class="google-map" allowfullscreen></iframe>
+                        <iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.4865920207017!2d74.99128211482292!3d13.0683184907925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1befc8910a861889!2sSmart+Living+Home+%26+Building+Automations!5e0!3m2!1sen!2s!4v1484057692649" width="600" height="450" frameborder="0" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
