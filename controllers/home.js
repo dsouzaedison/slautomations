@@ -9,7 +9,7 @@ angular.module('slautomations')
             else return true;
         };
 
-        $scope.products = ['cabtree.gif', 'havells.png'];
+        $scope.products = ['havells.png', 'cabtree.gif'];
 
         $scope.submitForm = function () {
             console.log('Control Recieved');
