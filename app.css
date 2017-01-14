@@ -55,7 +55,7 @@ nav {
 
 .nav-links-active {
     background: #eee;
-    color: #525252;
+    color: #525252 !important;
     border-bottom: 2px solid teal;
 }
 
