@@ -32,17 +32,18 @@
     </div>
     <div class="col-lg-6 col-md-6 hidden-sm hidden-xs">
         <nav class="middle font-888">
-            <a ng-href="#home" class="nav-links" ng-class="{'nav-links-active' : active == 0}"
+            <a href="#/home" id="homebtn" target="_self" class="nav-links" ng-class="{'nav-links-active' : active == 0}"
                ng-click="active=0"><i class="fa fa-home"></i> Home</a>
-            <a ng-href="#about" class="nav-links" ng-class="{'nav-links-active' : active == 1}" ng-click="active=1"><i
+            <a id="aboutbtn" target="_self" class="nav-links" ng-class="{'nav-links-active' : active == 1}" ng-click="active=1"><i
                     class="fa fa-info-circle"></i> About</a>
-            <a ng-href="#services" class="nav-links" ng-class="{'nav-links-active' : active == 2}"
+            <a id="servicesbtn" target="_self" class="nav-links" ng-class="{'nav-links-active' : active == 2}"
                ng-click="active=2"><i
                     class="fa fa-cog"></i> Services</a>
             <!--<a ng-href="#products" class="nav-links" ng-class="{'nav-links-active' : active == 3}" ng-click="active=3">Products</a>-->
             <!--<a ng-href="" class="nav-links" ng-class="{'nav-links-active' : active == 4}" ng-click="active=4">Our Work</a>-->
-            <!--<a ng-href="" class="nav-links" ng-class="{'nav-links-active' : active == 5}" ng-click="active=5">Partners</a>-->
-            <a href="" ng-href="#/contact" class="nav-links" ng-class="{'nav-links-active' : active == 6}"
+            <a id="partnersbtn" ng-href="" class="nav-links" ng-class="{'nav-links-active' : active == 5}" ng-click="active=5"><i
+                    class="fa fa-handshake-o"></i> Partners</a>
+            <a id="contactbtn" target="_self" class="nav-links" ng-class="{'nav-links-active' : active == 6}"
                ng-click="active=6"><i
                     class="fa fa-phone-square"></i> Contact</a>
         </nav>
@@ -53,10 +54,11 @@
     </div>
 </div>
 <div class="col-xs-12 col-sm-12 hidden-lg hidden-md dropdown-menu-wrapper middle" ng-show="showMenu==true">
-    <a href="#home" ng-click="showMenu=false " class="drop-nav-link middle"><i class="fa fa-home"></i> Home</a>
-    <a href="#about" ng-click="showMenu=false" class="drop-nav-link"><i class="fa fa-info-circle"></i> About</a>
-    <a href="#services" ng-click="showMenu=false" class="drop-nav-link"><i class="fa fa-cog"></i> Services</a>
-    <a href="#contact" ng-click="showMenu=false" class="drop-nav-link"><i class="fa fa-phone-square"></i> Contact</a>
+    <a id="homebtn-xs" ng-click="showMenu=false " class="drop-nav-link middle"><i class="fa fa-home"></i> Home</a>
+    <a id="aboutbtn-xs" ng-click="showMenu=false" class="drop-nav-link"><i class="fa fa-info-circle"></i> About</a>
+    <a id="servicesbtn-xs" ng-click="showMenu=false" class="drop-nav-link"><i class="fa fa-cog"></i> Services</a>
+    <a id="partnersbtn-xs" ng-click="showMenu=false" class="drop-nav-link"><i class="fa fa-handshake-o"></i> Partners</a>
+    <a id="contactbtn-xs" ng-click="showMenu=false" class="drop-nav-link"><i class="fa fa-phone-square"></i> Contact</a>
     <div class="center">...</div>
 </div>
 

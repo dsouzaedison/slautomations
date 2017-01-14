@@ -97,3 +97,5 @@ angular.module('slautomations', ['route'])
             $anchorScroll();
         };
     });
+
+// $window.scrollTo(0, angular.element('put here your element').offsetTop); 

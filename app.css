@@ -45,7 +45,12 @@ nav {
 .nav-links {
     padding: 0 10px;
     height: 60px;
+    cursor: pointer;
     display: inline-block;
+}
+
+.nav-links:hover {
+    color: #525252;
 }
 
 .nav-links-active {
