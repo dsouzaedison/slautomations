@@ -79,7 +79,7 @@ angular.module('slautomations', ['route'])
                 'HVAC CONTROL',
                 'PLC AND SCADA GRAPHICS',
                 'CAR PARK JET FANS CONTROL',
-                'GAS AND WATER METERING SYSTEM',
+                'METERING FOR UTILITIES( BTU,Water,Gas)',
                 'BUILDING ELECTRICAL AND MECHANICAL SYSTEM MONITORING'
             ]
         }];
