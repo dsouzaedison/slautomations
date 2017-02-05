@@ -1,5 +1,5 @@
 angular.module('slautomations', ['route'])
-    .controller('mainCtrl', function ($scope, $location, $anchorScroll) {
+    .controller('mainCtrl', function ($scope, $location, $anchorScroll, $route) {
         $scope.active = 0;
         if ($location.search().tab)
             $scope.productIndex = $location.search().tab;
@@ -96,6 +96,16 @@ angular.module('slautomations', ['route'])
             $location.hash(reference);
             $anchorScroll();
         };
+
+        $scope.isInfoPage = function () {
+            if($route.current.loadedTemplateUrl.split('/')[1] == 'product-info.html')
+                return true;
+            else return false;
+        };
+
+        // setTimeout(function () {
+        //     console.log($route.current.loadedTemplateUrl);
+        // },5000);
     });
 
 // $window.scrollTo(0, angular.element('put here your element').offsetTop); 

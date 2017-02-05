@@ -30,7 +30,9 @@
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 center logo-wrapper">
         <img src="images/logo.png" alt="" class="logo pointer" ng-click="routeTo('/')">
     </div>
-    <div class="col-lg-6 col-md-6 hidden-sm hidden-xs">
+
+    <!--Navbar-->
+    <div class="col-lg-6 col-md-6 hidden-sm hidden-xs" ng-hide="isInfoPage()">
         <nav class="middle font-888">
             <a href="#/home" id="homebtn" target="_self" class="nav-links" ng-class="{'nav-links-active' : active == 0}"
                ng-click="active=0"><i class="fa fa-home"></i> Home</a>
@@ -48,6 +50,27 @@
                     class="fa fa-phone-square"></i> Contact</a>
         </nav>
     </div>
+
+    <!--Info Page-->
+    <div class="col-lg-6 col-md-6 hidden-sm hidden-xs" ng-show="isInfoPage()">
+        <nav class="middle font-888">
+            <a href="#home" target="_self" class="nav-links" ng-class="{'nav-links-active' : active == 0}"
+               ng-click="active=0"><i class="fa fa-home"></i> Home</a>
+            <a href="#home" target="_self" class="nav-links" ng-class="{'nav-links-active' : active == 1}" ng-click="active=1"><i
+                    class="fa fa-info-circle"></i> About</a>
+            <a href="#home" target="_self" class="nav-links" ng-class="{'nav-links-active' : active == 2}"
+               ng-click="active=2"><i
+                    class="fa fa-cog"></i> Services</a>
+            <!--<a ng-href="#products" class="nav-links" ng-class="{'nav-links-active' : active == 3}" ng-click="active=3">Products</a>-->
+            <!--<a ng-href="" class="nav-links" ng-class="{'nav-links-active' : active == 4}" ng-click="active=4">Our Work</a>-->
+            <a href="#home" class="nav-links" ng-class="{'nav-links-active' : active == 5}" ng-click="active=5"><i
+                    class="fa fa-handshake-o"></i> Partners</a>
+            <a href="#home" target="_self" class="nav-links" ng-class="{'nav-links-active' : active == 6}"
+               ng-click="active=6"><i
+                    class="fa fa-phone-square"></i> Contact</a>
+        </nav>
+    </div>
+
     <div class="col-sm-6 col-xs-6 hidden-lg hidden-md right middle hamburger pointer">
         <i class="fa fa-bars" ng-click="showMenu=true" ng-show="showMenu==false"></i>
         <i class="fa fa-times" ng-click="showMenu=false" ng-show="showMenu==true"></i>
