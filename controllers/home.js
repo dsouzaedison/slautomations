@@ -11,7 +11,7 @@ angular.module('slautomations')
             else return true;
         };
 
-        $scope.products = ['havells.png', 'cabtree.gif', '1024px-Somfy_logo.svg.png', 'hikvision.png', 'YaleLogo.jpg'];
+        $scope.products = ['havells.png', 'cabtree.gif', 'hikvision.png', 'YaleLogo.jpg', '1024px-Somfy_logo.svg.png'];
 
         $scope.submitForm = function () {
             console.log('Control Recieved');
