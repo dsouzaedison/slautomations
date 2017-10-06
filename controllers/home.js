@@ -11,7 +11,8 @@ angular.module('slautomations')
             else return true;
         };
 
-        $scope.products = ['havells.png', 'cabtree.gif', 'hikvision.png', 'YaleLogo.jpg', '1024px-Somfy_logo.svg.png'];
+        $scope.products = ['havells.png', 'cabtree.gif', 'hikvision.png', 'YaleLogo.jpg', '1024px-Somfy_logo.svg.png', 'tannoy.jpg',
+                            'TAGA HARMONY Z R.jpg', 'denon.jpg', 'marantz.jpg', 'Hegel.jpg', 'JBL.png', 'BenQ.svg.png', 'VIVITEK.png' ];
 
         $scope.submitForm = function () {
             console.log('Control Recieved');
