@@ -14,7 +14,9 @@ angular.module('slautomations')
         $scope.products = ['havells.png', 'cabtree.gif', 'hikvision.png', 'YaleLogo.jpg', '1024px-Somfy_logo.svg.png', 'tannoy.jpg',
                             'TAGA HARMONY Z R.jpg', 'denon.jpg', 'marantz.jpg', 'Hegel.jpg', 'JBL.png', 'BenQ.svg.png', 'VIVITEK.png' ];
 
-        $scope.submitForm = function () {
+        $scope.gallery = ['Smart switches', 'Sensors', 'Smart locks', 'Video door phones', 'Home theater and audio solutions', 'Projectors', 'CCTV Surveillance'];
+
+            $scope.submitForm = function () {
             console.log('Control Recieved');
             $http({
                 method: 'POST',
