@@ -425,8 +425,8 @@ nav {
 
 .popup-close {
     position: absolute;
-    right: 0;
-    top: -40px;
+    right: 30px;
+    top: 15px;
     width: auto;
 }
 

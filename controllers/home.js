@@ -16,11 +16,15 @@ angular.module('slautomations')
         };
 
         $scope.nextImage = function () {
-            $scope.displayIndex++;
+            if($scope.displayIndex < $scope.displayImages.length-1) {
+                $scope.displayIndex++;
+            }
         };
 
         $scope.previousImage = function () {
-            $scope.displayIndex--;
+            if($scope.displayIndex > 0) {
+                $scope.displayIndex--;
+            }
         };
 
         $scope.formNotValid = function () {
