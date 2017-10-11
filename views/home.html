@@ -160,9 +160,14 @@
             <img src="images/text-divider-green.png" alt="" class="divider-png">
         </div>
         <div class="block-body col-lg-12 col-md-12 col-sm-12 col-sm-12 product-wrapper">
-            <div class="middle product-img-container" ng-repeat="product in products">
-                <img ng-src="images/products/{{product}}" alt="Loading Failed" class="img-product">
+            <div class="container">
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6" ng-repeat="product in products">
+                    <div class="middle product-img-container">
+                        <img ng-src="images/products/{{product}}" alt="Loading Failed" class="img-product">
+                    </div>
+                </div>
             </div>
+
             <!--<div class="col-lg-2 col-md-2 col-sm-4 col-xs-12"></div>-->
         </div>
     </div>
