@@ -398,6 +398,7 @@ nav {
     display: flex;
     flex-direction: row;
     align-items: center;
+    cursor: pointer;
 }
 
 .chevron-wrapper-right {
@@ -408,6 +409,7 @@ nav {
     display: flex;
     flex-direction: row;
     align-items: center;
+    cursor: pointer;
 }
 
 .display-table {
@@ -430,4 +432,10 @@ nav {
 
 .gallery-popup-container {
     margin-top: 50px;
+}
+
+.modal.fade.in {
+    display: flex !important;
+    flex-direction: row;
+    align-items: center;
 }
