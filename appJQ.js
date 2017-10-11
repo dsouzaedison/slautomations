@@ -23,6 +23,10 @@ $(function () {
         $('html, body').animate({scrollTop:$(".id-home").offset().top - 60},500);
     });
 
+    $('#gallerybtn, #gallerybtn-xs').click(function () {
+        $('html, body').animate({scrollTop:$(".id-gallery").offset().top - 60},500);
+    });
+
     $('#partnersbtn, #partnersbtn-xs').click(function () {
         $('html, body').animate({scrollTop:$(".id-partners").offset().top - 60},500);
     });
