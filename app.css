@@ -80,6 +80,7 @@ nav {
 .block-body {
     padding: 2% 0;
     font-size: 100%;
+    margin-top: 20px;
 }
 
 .service-icon {
@@ -148,6 +149,7 @@ nav {
 .submit {
     background: #004D40;
     color: #fff;
+    width: 100%;
 }
 
 .submit:hover {
@@ -156,7 +158,7 @@ nav {
 }
 
 .google-map {
-    height: 380px;
+    height: 396px;
     margin: 0 auto;
     width: 80%;
     border: 5px solid #fff;
@@ -379,10 +381,6 @@ nav {
     width: 100%;
     overflow: hidden;
     text-overflow: ellipsis;
-}
-
-.submit {
-    width: 80%;
 }
 
 .gallery-popup-img {

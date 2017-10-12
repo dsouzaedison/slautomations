@@ -55,11 +55,11 @@ a:hover, a:active, a:visited, a:focus {
 .input-text, textarea {
     border: 1px solid #fff;
     height: 40px;
-    font-size: 110%;
+    font-size: 120%;
     padding: 0 15px;
     color: #92a79c;
     margin: 5px 0;
-    width: 80%;
+    width: 100%;
 }
 
 input:focus {
