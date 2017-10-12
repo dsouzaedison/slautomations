@@ -373,6 +373,7 @@ nav {
     transition: all 0.5s ease;
     height: 53px;
     padding-left: 32px;
+    padding-right: 32px;
     border-radius: 0 30px 30px 0;
 }
 
