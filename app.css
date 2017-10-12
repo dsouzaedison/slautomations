@@ -399,10 +399,16 @@ nav {
     left: 30px;
     top: 0;
     height: 100%;
+    width: 50%;
     display: flex;
     flex-direction: row;
     align-items: center;
     cursor: pointer;
+}
+
+.chevron-wrapper-right > i {
+    position: absolute;
+    right: 0;
 }
 
 .chevron-wrapper-right {
@@ -410,6 +416,7 @@ nav {
     right: 30px;
     top: 0;
     height: 100%;
+    width: 50%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -466,4 +473,8 @@ nav {
 .gallery-item-container:hover {
     background: #4f6563;
     /*background: rgba(0, 150, 136, 0.88);*/
+}
+
+.gallery-item-container > span {
+    display: inline-block;
 }
