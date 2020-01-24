@@ -57,13 +57,12 @@ angular.module('slautomations')
         };
 
         $scope.submitForm = function () {
-            console.log('Control Recieved');
             $http({
                 method: 'POST',
-                url: 'contactussubmit.php',
+                url: 'https://formspree.io/mgeabjvz',
                 data: {
                     name: $scope.name,
-                    email: $scope.email,
+                    _replyto: $scope.email,
                     subject: $scope.subject,
                     message: $scope.message
                 }
