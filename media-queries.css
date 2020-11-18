@@ -1,109 +1,138 @@
 @media only screen and (max-width: 1150px) {
-    body {
-        font-size: 14px;
-    }
+  body {
+    font-size: 14px;
+  }
 
-    .block {
-        padding: 15px;
-    }
+  .block {
+    padding: 15px;
+  }
 
-    .block-body {
-        padding: 0;
-    }
+  .block-body {
+    padding: 0;
+  }
 
-    .aboutus-container {
-        padding: 15px;
-    }
+  .aboutus-container {
+    padding: 15px;
+  }
 
-    .map-container {
-        padding: 15px 0;
-    }
+  .map-container {
+    padding: 15px 0;
+  }
 
-    .google-map {
-        height: 373px;
-    }
+  .google-map {
+    height: 373px;
+  }
 
-    .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
-        height: 230px !important;
-    }
+  .carousel-inner > .item > a > img,
+  .carousel-inner > .item > img,
+  .img-responsive,
+  .thumbnail a > img,
+  .thumbnail > img {
+    height: 230px !important;
+  }
 
-    .service-description {
-        min-height: 130px;
-    }
+  .service-description {
+    min-height: 130px;
+  }
 
-    .contact-wrapper:before, .teal-tail:before {
-        display: none;
-    }
+  .contact-wrapper:before,
+  .teal-tail:before {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .mt-10 {
+    margin-top: 23px;
+  }
 }
 
 @media only screen and (max-width: 500px) {
-    body {
-        font-size: 12px;
-    }
+  body {
+    font-size: 12px;
+  }
 
-    .google-map {
-        height: 250px;
-        width: 90%;
-    }
+  .google-map {
+    height: 250px;
+    width: 90%;
+  }
 
-    .input-text, textarea, button {
-        width: 100%;
-    }
+  .input-text,
+  textarea,
+  button {
+    width: 100%;
+  }
 
-    .footer {
-        padding: 15px;
-        line-height: 16px;
-        text-align: center;
-    }
+  .footer {
+    padding: 15px;
+    line-height: 16px;
+    text-align: center;
+  }
 
-    .input-text, button {
-        height: 38px;
-        padding: 0 15px;
-    }
+  .input-text,
+  button {
+    height: 38px;
+    padding: 0 15px;
+  }
 
-    .social-icons {
-        line-height: 50px;
-    }
+  .social-icons {
+    line-height: 50px;
+  }
 
-    .service-description {
-        text-align: center;
-        min-height: initial;
-    }
+  .service-description {
+    text-align: center;
+    min-height: initial;
+  }
 
-    .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
-        height: 150px !important;
-    }
+  .carousel-inner > .item > a > img,
+  .carousel-inner > .item > img,
+  .img-responsive,
+  .thumbnail a > img,
+  .thumbnail > img {
+    height: 150px !important;
+  }
 
-    .gradient {
-        background: #eeeeee; /* For browsers that do not support gradients */
-        background: -webkit-linear-gradient(lightslategray, #eeeeee); /* For Safari 5.1 to 6.0 */
-        background: -o-linear-gradient(lightslategray, #eeeeee); /* For Opera 11.1 to 12.0 */
-        background: -moz-linear-gradient(lightslategray, #eeeeee); /* For Firefox 3.6 to 15 */
-        background: linear-gradient(lightslategray, #eeeeee)
-    }
+  .gradient {
+    background: #eeeeee; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(
+      lightslategray,
+      #eeeeee
+    ); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(
+      lightslategray,
+      #eeeeee
+    ); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(
+      lightslategray,
+      #eeeeee
+    ); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(lightslategray, #eeeeee);
+  }
 
-    .spacing {
-        padding: 15px 0;
-    }
+  .spacing {
+    padding: 15px 0;
+  }
 
-    .no-padding-xs {
-        padding: 15px 0;
-    }
+  .no-padding-xs {
+    padding: 15px 0;
+  }
 
-    .border-left {
-        border: none;
-    }
+  .border-left {
+    border: none;
+  }
 
-    .service-name {
-        min-height: auto;
-    }
+  .service-name {
+    min-height: auto;
+  }
 
-    .contact-wrapper:before, .teal-tail:before {
-        display: none;
-    }
+  .contact-wrapper:before,
+  .teal-tail:before {
+    display: none;
+  }
 
-    .home-automation-img1, .home-automation-img2 {
-        height: 200px;
-        margin-top: 15px;
-    }
+  .home-automation-img1,
+  .home-automation-img2 {
+    height: 200px;
+    margin-top: 15px;
+  }
 }
